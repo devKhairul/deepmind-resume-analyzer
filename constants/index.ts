@@ -90,7 +90,7 @@ export const resumes: Resume[] = [
     },
   },
   {
-    id: "1",
+    id: "4",
     companyName: "Google",
     jobTitle: "Frontend Developer",
     imagePath: "/images/resume_01.png",
@@ -120,7 +120,7 @@ export const resumes: Resume[] = [
     },
   },
   {
-    id: "2",
+    id: "5",
     companyName: "Microsoft",
     jobTitle: "Cloud Engineer",
     imagePath: "/images/resume_02.png",
@@ -150,7 +150,7 @@ export const resumes: Resume[] = [
     },
   },
   {
-    id: "3",
+    id: "6",
     companyName: "Apple",
     jobTitle: "iOS Developer",
     imagePath: "/images/resume_03.png",
