@@ -15,18 +15,20 @@ export default function Home() {
     <section className="main-section">
       <Navbar />
 
-      <div className="page-heading">
+      <div className="page-heading py-16">
         <h1>Track Your Applications & Resume Strength</h1>
         <h2>Upgrade your resume by AI Powered Feedback</h2>
       </div>
+      
+      {resumes.length > 0 && (
+        <div className="resumes-section">
+          {resumes.map((resume) => (
+            <ResumeCard key={resume.id} resume={resume} />
+          ))}
+        </div>
+      )}
     </section>
 
-    {resumes.length > 0 && (
-      <div className="resumes-section">
-        {resumes.map((resume) => (
-          <ResumeCard key={resume.id} resume={resume} />
-        ))}
-      </div>
-    )}
+    
   </main>
 }
